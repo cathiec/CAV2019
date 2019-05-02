@@ -14,8 +14,8 @@ This session shows how to install the tool.
      STEP 1 - Check Java
 =============================
 Ensure that Java has been installed.
-If not, (For Ubuntu) type:
-   apt-get install default-jdk
+If not, type (password probably required):
+   sudo apt-get install default-jdk
 
 ================================
      STEP 2 - Install FOADA
@@ -41,6 +41,7 @@ If "Z3" cannot be correctly integrated, please send an email (with screenshots) 
 
 ---< RUN THE TOOL >---
 This session shows how to use the tool.
+Once the tool has been installed, you can use the command "foada" in any folder.
 
 ===================
      Help Menu
@@ -87,6 +88,7 @@ The experimental results of the paper are carried out on a MacOS x64 - 1.3 GHz I
 ================
      Script
 ================
+Back to the upper folder (from "Artifact" to "CAV2019-master").
 To reproduce a part of experimental results of the paper, type:
    bash ./reproduce.bash
 
